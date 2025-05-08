@@ -10,7 +10,9 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://cultureconnection01:udy0EZIQH9TclHYd@cluster0.rrita.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+// mongoose.connect('mongodb+srv://cultureconnection01:udy0EZIQH9TclHYd@cluster0.rrita.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+  
+mongoose.connect('mongodb+srv://cultureconnection14:0e2gGmDIYjA2soFt@cluster0.5sjmgdl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => console.log('Connected to MongoDB'))
